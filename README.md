@@ -24,7 +24,7 @@ Making a release build is similar, but requires environment variables to be set
 to indicate how to sign the APK:
 
 ```shell
-CAL_STORE_FILE='...' CAL_STORE_PASSWORD='...' CAL_KEY_ALIAS='...' CAL_KEY_PASSWORD='...' ./gradlew assembleRelease
+STORE_FILE='...' STORE_PASSWORD='...' KEY_ALIAS='...' KEY_PASSWORD='...' ./gradlew assembleRelease
 ```
 
 ## License
